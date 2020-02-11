@@ -1,0 +1,54 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Debug App (a)",
+      "request": "launch",
+      "mainClass": "app.App",
+      "projectName": "Practice",
+      "args": "< a_example.in"
+    },
+    {
+      "type": "java",
+      "name": "Debug App (b)",
+      "request": "launch",
+      "mainClass": "app.App",
+      "projectName": "Practice",
+      "args": "< b_small.in"
+    },
+    {
+      "type": "java",
+      "name": "Debug App (c)",
+      "request": "launch",
+      "mainClass": "app.App",
+      "projectName": "Practice",
+      "args": "< c_medium.in"
+    },
+    {
+      "type": "java",
+      "name": "Debug App (d)",
+      "request": "launch",
+      "mainClass": "app.App",
+      "projectName": "Practice",
+      "args": "< d_quite_big.in"
+    },
+    {
+      "type": "java",
+      "name": "Debug App (e)",
+      "request": "launch",
+      "mainClass": "app.App",
+      "projectName": "Practice",
+      "args": "< e_also_big.in"
+    }
+  ]
+}
